@@ -104,6 +104,11 @@ public class Tugas2 extends javax.swing.JFrame {
             }
         });
 
+        jTextnim.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextnimActionPerformed(evt);
+            }
+        });
         jTextnim.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
                 jTextnimKeyPressed(evt);
@@ -415,6 +420,10 @@ public class Tugas2 extends javax.swing.JFrame {
         jButton1.requestFocus();
         }
     }//GEN-LAST:event_jComboBoxmbKeyPressed
+
+    private void jTextnimActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextnimActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextnimActionPerformed
 
     /**
      * @param args the command line arguments
