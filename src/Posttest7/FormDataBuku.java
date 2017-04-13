@@ -1,4 +1,4 @@
-package Posttest6;
+package Posttest7;
 
 import java.sql.*;
 import javax.swing.JOptionPane;

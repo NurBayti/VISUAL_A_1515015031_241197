@@ -85,6 +85,11 @@ public class Tugas4 extends javax.swing.JFrame {
         jLabel6.setText("Agama");
 
         jRadioButtonLk.setText("Laki-laki");
+        jRadioButtonLk.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jRadioButtonLkActionPerformed(evt);
+            }
+        });
 
         jRadioButtonPr.setText("Perempuan");
 
@@ -376,6 +381,10 @@ public class Tugas4 extends javax.swing.JFrame {
         jTextFieldRiwayat.setText("");
         jTextAreaKeluhan.setText("");
     }//GEN-LAST:event_jButton4ActionPerformed
+
+    private void jRadioButtonLkActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButtonLkActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jRadioButtonLkActionPerformed
 
     /**
      * @param args the command line arguments
